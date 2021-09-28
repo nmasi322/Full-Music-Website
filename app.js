@@ -38,3 +38,11 @@ musicPlayerSection.addEventListener('click', () => {
         clickCount + 1;
     }, 250);
 })
+
+// back from mobile player
+
+const backToHomeBtn = document.querySelector(".music-player-section .back-btn");
+
+backToHomeBtn.addEventListener("click", () => {
+    musicPlayerSection.classList.remove('active');
+})

@@ -1,5 +1,6 @@
 // Carousel
 
+
 const carousel = [...document.querySelectorAll(".carousel img")];
 
 let carouselImageIndex = 0;
@@ -39,10 +40,24 @@ musicPlayerSection.addEventListener('click', () => {
     }, 250);
 })
 
-// back from mobile player
+///back from mobile player
 
 const backToHomeBtn = document.querySelector(".music-player-section .back-btn");
 
-backToHomeBtn.addEventListener("click", () => {
-    musicPlayerSection.classList.remove('active');
+button.addEventListener('click', () => {
+    musicPlayerSection.classList.add('inactive');
 })
+
+                                                                                                                                                                                                          
+//access playlist
+
+const playListSection = document.querySelector('.playlist');
+const navBtn = document.querySelector('.music-player-section .nav-btn');
+
+navBtn.addEventListener('click', () => {
+    playListSection.classList.add('active');
+})
+
+// back from playlist
+
+const backToMusicPlayer = document.querySelector

@@ -15,7 +15,7 @@ let songs = [
         name: "Dangerous",
         path: "./audio/dangerous.mp3",
         artist: "Cheque & Ayra Starr",
-        cover: "./images/bravo.jpg"
+        cover: "./images/bravo.jpeg"
     },
     {
         name: "Emotions",
@@ -45,7 +45,7 @@ let songs = [
         name: "High",
         path: "./audio/high.mp3",
         artist: "Adekunle Gold & Davido",
-        cover: "./images/high.jpg"
+        cover: "./images/high.jpeg"
     },
     {
         name: "History",
@@ -63,7 +63,7 @@ let songs = [
         name: "LOML",
         path: "./audio/loml.mp3",
         artist: "Cheque & Olamide",
-        cover: "./images/bravo.jpg"
+        cover: "./images/bravo.jpeg"
     },
     {
         name: "Mystery Girl",

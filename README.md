@@ -10,4 +10,5 @@
 - Images 
 - 
 
-## This is a practice of my JavaScript Front-end skills. Hope you like it.
+### This is a practice of my JavaScript Front-end skills. Hope you like it.
+## oh, and link is 👉🏾 https://tunexa.netlify.app/
